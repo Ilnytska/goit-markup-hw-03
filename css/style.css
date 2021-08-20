@@ -39,8 +39,8 @@ li {
   margin: 0 auto;
 }
 .section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .img {
   display: block;
@@ -76,6 +76,7 @@ li {
   flex-direction: row;
   display: flex;
   align-items: center;
+  margin-right: 93px;
 }
 .navigation {
   display: flex;
@@ -109,6 +110,7 @@ li {
 .link-mail {
   color: var(--primary-text-color);
   font-size: 14px;
+  font-weight: 500;
   text-decoration: none;
   letter-spacing: 0.02em;
   padding-right: 50px;
@@ -143,9 +145,10 @@ li {
   text-transform: uppercase;
   line-height: 1.36;
   text-align: center;
-  width: 696px;
   letter-spacing: 0.06em;
-  margin: 200px 459px 30px 445px;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  width: 696px;
 }
 .cta-btn {
   color: #ffffff;
@@ -175,6 +178,7 @@ li {
   text-transform: uppercase;
   font-weight: 700;
   padding-bottom: 10px;
+  font-size: 14px;
 }
 .list-features > .item {
   width: 270px;
@@ -286,6 +290,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+  padding-bottom: 50px;
 }
 .portfolio-filter-button {
   background-color: var(--accent-background-color);
@@ -297,19 +302,17 @@ li {
   font-weight: 500;
   letter-spacing: 0.03em;
   font-family: "roboto";
-  margin-right: 9px;
-  margin-bottom: 50px;
+  margin-right: 8px;
   border: 0;
-  padding: 0;
+  display: block;
+  padding: 6px 22px 6px 22px;
 }
 .portfolio-filter-button:hover,
 .portfolio-filter-button:focus {
   background-color: var(--accent-color);
   color: #ffffff;
 }
-.button-text {
-  padding: 6px 22px 6px 22px;
-}
+
 .card-title {
   color: var(--title-color);
   font-size: 18px;
